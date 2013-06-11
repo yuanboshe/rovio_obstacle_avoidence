@@ -288,7 +288,7 @@ int main(int argc, char **argv)
     rvMCUReport rvMcu = getReport();
     if (rvMcu.isIrOn && rvMcu.isDetectedBarrier)
       isBlocked = true;
-    if (false)
+    if (true)
     {
       if (isBlocked)
       {
